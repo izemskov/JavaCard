@@ -10,8 +10,16 @@
         <servlet-name>CVWebApp</servlet-name>
         <servlet-class>ru.develgame.cvwebapp.CVWebApp</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>EditServlet</servlet-name>
+        <servlet-class>ru.develgame.cvwebapp.EditServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>CVWebApp</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/cv</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditServlet</servlet-name>
+        <url-pattern>/edit</url-pattern>
     </servlet-mapping>
 </web-app>

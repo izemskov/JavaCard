@@ -7,7 +7,6 @@ package ru.develgame.cvwebapp;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import javax.microedition.io.SocketConnection;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -27,13 +26,27 @@ public class CVWebApp extends HttpServlet {
     @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException, ServletException {
+        if (CV.getName() == null) {
+            CV.setName("Username");
+        }
+        if (CV.getEmail() == null) {
+            CV.setEmail("user@example.com");
+        }
+        
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         try {
             out.println("<html><head><title>CVWebApp</title></head>");
-            out.println("<body><h1>CVWebApp</h1>");
-            out.println("Hello from ru.develgame.cvwebapp.CVWebApp to");
-            out.println("AAAAAA");
+            out.print("<body><h1>");
+            out.print(CV.getName());
+            out.println("</h1>");
+            
+            out.println("<h2>Summary</h2>");
+            
+            out.print("<b>E-Mail: </b>");
+            out.println(CV.getEmail());
+            out.print("</br>");
+            
             out.println("</body></html>");
         } finally {
             out.close();

@@ -10,17 +10,17 @@ package ru.develgame.cvwebapp;
  * @author pasca
  */
 public class CV {
-    private static String firstName;
+    private static String name;
     private static String email;
     private static String phone;
     private static String birthDay;
 
-    public static String getFirstName() {
-        return firstName;
+    public static String getName() {
+        return name;
     }
 
-    public static void setFirstName(String firstName) {
-        CV.firstName = firstName;
+    public static void setName(String name) {
+        CV.name = name;
     }
 
     public static String getEmail() {
