@@ -1,0 +1,40 @@
+<JavaCardProject name="HelloApp2" version="2">
+<USER location="src/">
+<PKG name="ru.develgame.helloapp2" aid="F2 09 F4 31 4D 02 D1 F9" major="1" minor="0">
+<APPLET aid="F2 09 F4 31 4D 02 D1 F9 00" instanceaid="" parameter="" authority="" privileges="" index="-10720" name="HelloApp2"/>
+</PKG>
+</USER>
+<BuildPropertyConfig>
+<JCKit_Option>
+<OutType>EXP JCA CAP</OutType>
+<_SupportInt>1</_SupportInt>
+<_verbos>0</_verbos>
+<_nowarn>0</_nowarn>
+<_debug>1</_debug>
+<_nobanner>0</_nobanner>
+<_noverify>0</_noverify>
+<_mask>0</_mask>
+<_Adddition/>
+<ExportPaths/>
+</JCKit_Option>
+<JavaCompilerOption>
+<_Source>1.7</_Source>
+<_Target>1.7</_Target>
+<_Encoding>windows-1251</_Encoding>
+<_GenAllDegugInfo>1</_GenAllDegugInfo>
+<_GenNoWarnings>0</_GenNoWarnings>
+<_OutputAboutCompilerDoing>0</_OutputAboutCompilerDoing>
+<_OutputWhereDeprecatedApisAre>1</_OutputWhereDeprecatedApisAre>
+<_Adddition/>
+<directives/>
+</JavaCompilerOption>
+<Buildpaths>
+<ClasspathEntry>
+<CPE_CONTAINER name="java_card_kit-2_2_2" kind="K_DEFAULT_SYSTEM_JCRE"/>
+</ClasspathEntry>
+<ConvertorBinDirPath/>
+</Buildpaths>
+<ConverterInfo ConverterKid="FTSAFE" ConverterName="ft222"/>
+</BuildPropertyConfig>
+<solution_relate_to_project/>
+</JavaCardProject>

@@ -1,0 +1,5 @@
+<classpath>
+    <classpathentry kind="output" path=".jcide/jdt/bin/Debug" />
+    <classpathentry kind="lib" path="C:/JavaCardKit/SDK/Tools/ChipPack/JAVACOS/lib/java_card_kit/2_2_2/lib/api.jar" sourcepath="C:/JavaCardKit/SDK/Tools/ChipPack/JAVACOS/lib/java_card_kit/2_2_2/api_attach_source.jar" />
+    <classpathentry kind="src" path="src" />
+</classpath>

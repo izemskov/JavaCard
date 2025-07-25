@@ -1,0 +1,12 @@
+<JavaCardConfiguration name="HelloApp2">
+    <Config activeconfig="Debug">
+        <ConfigItem name="Debug" chipPack="JAVACOS">
+            <InstallConfig>
+                <PKG project_name="HelloApp2" pkg_name="ru.develgame.helloapp2" aid="F2 09 F4 31 4D 02 D1 F9" major="1" minor="0">
+                    <APPLET aid="F2 09 F4 31 4D 02 D1 F9 00" authority="" instanceaid="" parameter="" privileges="" index="-21240" name="HelloApp2" />
+                </PKG>
+            </InstallConfig>
+            <ScriptConfig before_build="" after_build="" />
+        </ConfigItem>
+    </Config>
+</JavaCardConfiguration>

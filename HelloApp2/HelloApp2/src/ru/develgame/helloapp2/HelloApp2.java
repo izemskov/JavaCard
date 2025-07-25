@@ -4,11 +4,11 @@ import javacard.framework.*;
 
 public class HelloApp2 extends Applet
 {
-	final static byte HELLO_CLA = (byte)0xB0;
+	private static final byte HELLO_CLA = (byte)0xB0;
     
-    final static byte SAY_HELLO = (byte) 0x50;
+    private static final byte SAY_HELLO = (byte) 0x50;
     
-    final static byte SUM_CMD = (byte) 0x60;
+    private static final byte SUM_CMD = (byte) 0x60;
 
 	public static void install(byte[] bArray, short bOffset, byte bLength) 
 	{

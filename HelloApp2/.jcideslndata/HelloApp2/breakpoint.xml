@@ -1,0 +1,40 @@
+<JavaCardSolution name="C:/devel/java_card/HelloApp2/.jcideslndata/HelloApp2/breakpoint.xml">
+    <breakPointInfo>
+        <bpVersion>2</bpVersion>
+        <projects>
+            <project name="HelloApp2">
+                <packages>
+                    <package name="ru/develgame/helloapp2">
+                        <files>
+                            <file name="HelloApp2.java">
+                                <lines>
+                                    <line>
+                                        <lineNumber>14</lineNumber>
+                                        <valid>1</valid>
+                                        <invalidTimes>0</invalidTimes>
+                                        <Condition></Condition>
+                                        <logMessage></logMessage>
+                                    </line>
+                                    <line>
+                                        <lineNumber>24</lineNumber>
+                                        <valid>1</valid>
+                                        <invalidTimes>0</invalidTimes>
+                                        <Condition></Condition>
+                                        <logMessage></logMessage>
+                                    </line>
+                                    <line>
+                                        <lineNumber>21</lineNumber>
+                                        <valid>1</valid>
+                                        <invalidTimes>0</invalidTimes>
+                                        <Condition></Condition>
+                                        <logMessage></logMessage>
+                                    </line>
+                                </lines>
+                            </file>
+                        </files>
+                    </package>
+                </packages>
+            </project>
+        </projects>
+    </breakPointInfo>
+</JavaCardSolution>
