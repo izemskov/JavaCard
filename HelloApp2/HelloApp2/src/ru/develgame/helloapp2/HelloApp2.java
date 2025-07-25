@@ -1,4 +1,4 @@
-package ru.develgame.helloapp2 ;
+package ru.develgame.helloapp2;
 
 import javacard.framework.*;
 
